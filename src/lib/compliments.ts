@@ -1,4 +1,4 @@
-let compliments = [
+export const compliments = [
     "That's a very nice color on you.",
     "You look great today.",
     "You’re a smart cookie.",
