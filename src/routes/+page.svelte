@@ -14,9 +14,9 @@
         hour = hour - 12
     }
 
-    let index = 0
+    let index = Math.floor(Math.random() * 26)
 
-    const newCompliment = () => index === 4 ? index = 0 : index++
+    const newCompliment = () => index = Math.floor(Math.random() * 26)
 
 	onMount(() => {
 		const interval = setInterval(() => {
