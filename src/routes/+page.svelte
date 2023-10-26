@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
+    import { compliments } from '$lib/compliments'
 
     let d = new Date();
     $: hour = d.getHours();
@@ -13,7 +14,6 @@
         hour = hour - 12
     }
 
-    let compliment = ['test', 'test2', 'test3', 'test4', 'test5']
     let index = 0
 
     const newCompliment = () => index === 4 ? index = 0 : index++
@@ -29,11 +29,11 @@
 	});
 </script>
 
-<div class="flex h-screen random">
-    <div class="m-auto text-center">
+<div class="flex h-screen bg-cover bg-[url('https://picsum.photos/1920/1080')]">
+    <div class="m-auto text-center text-white">
         <h1 class="text-6xl pb-5">It is now:</h1>
         <h1 class="text-8xl pb-5">{displayHour}:{displayMinute}:{displaySeconds}</h1>
-        <h1 class="text-6xl pb-5">{compliment[index]}</h1>
-        <button class="btn" on:click={newCompliment}>New</button>
+        <h1 class="text-6xl pb-8">{compliments[index]}</h1>
+        <button class="btn" on:click={newCompliment}>New Compliment</button>
     </div>
 </div>
