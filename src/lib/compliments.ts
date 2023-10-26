@@ -24,7 +24,6 @@ export const compliments = [
     "You’re even more beautiful on the inside than you are on the outside.",
     "You have the courage of your convictions.",
     "Aside from food. You’re my favorite.",
-    "If cartoon bluebirds were real, a bunch of them would be sitting on your shoulders singing right now.",
     "You are making a difference.",
     "You’re like sunshine on a rainy day.",
     "You bring out the best in other people."
