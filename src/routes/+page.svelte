@@ -6,7 +6,7 @@
     $: hour = d.getHours();
     $: minute = d.getMinutes();
     $: seconds = d.getSeconds();
-    $: displayHour = hour.toString().padStart(2, '0');
+    $: displayHour = hour.toString();
     $: displayMinute = minute.toString().padStart(2, '0');
     $: displaySeconds = seconds.toString().padStart(2, '0');
 
