@@ -21,7 +21,6 @@ export const compliments = [
     "You’re all that and a super-size bag of chips.",
     "On a scale from 1 to 10, you’re an 11.",
     "You are brave.",
-    "You’re even more beautiful on the inside than you are on the outside.",
     "You have the courage of your convictions.",
     "Aside from food. You’re my favorite.",
     "You are making a difference.",
