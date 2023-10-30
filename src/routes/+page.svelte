@@ -29,7 +29,7 @@
 	});
 </script>
 
-<div class="flex h-screen bg-cover bg-[url('https://picsum.photos/1920/1080')]">
+<div class="flex h-screen bg-cover bg-[url('https://picsum.photos/1920/1080?timestamp=' + Date.now())]">
     <div class="m-auto text-center text-white">
         <h1 class="text-6xl pb-5" style="text-shadow: 2px 2px 0 #000">It is now:</h1>
         <h1 class="text-8xl pb-5" style="text-shadow: 2px 2px 0 #000">{displayHour}:{displayMinute}:{displaySeconds}</h1>
